@@ -1,0 +1,223 @@
+
+* {
+  box-sizing: border-box;
+   font-family:sans-serif;
+   margin:0.3%;
+}
+@media(max-width:998px){
+	html{
+		font-size:80%;
+	}
+}
+
+@media(max-width:768px){
+	html{
+		font-size:90%;
+	}
+
+}
+input[type=text], [type=number], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+.footer {
+position:relative;
+bottom:-1rem;
+margin-top:0rem;
+overflow:auto;
+left:0;
+right:0;
+background-color:#000000;
+padding-left:2rem;
+color:white;
+width:99%;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  font-family:cursive;
+ 
+  
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float:left;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.text-footer{
+    text-align: center;
+  
+    
+    background-color:black;
+	color:white;
+    padding: 1rem 0;
+    display: flex;
+    position: sticky;
+    justify-content: center;
+}
+.codet{
+	display:flex;
+	justify-content: center;
+	  flex: 25%;
+    flex-wrap: wrap;
+}
+.fas{
+	margin:2rem;
+	}
+	
+	.navtop{
+		margin:1%;
+	font-size:1.1rem;
+	padding-top:0.5rem;
+	font-family:sans-serif;
+}
+.navtop a{
+	text-decoration:none;
+}
+a:hover{
+  color:black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:visited {
+  color:black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active {
+  color:red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+h3{
+	word-spacing:4px;
+}
+
+
+
+
+
+footer{
+position:relative;
+bottom:0;
+margin-top:0px;
+overflow:auto;
+left:0;
+right:0;
+background-color:#000000;
+height:auto;
+padding-left:40px;
+padding-top:40px;
+color:white;
+width:100%;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+.footer-content{
+display:flex;
+text-align:center;
+justify-content:centre;
+flex-direction:column;
+}
+.footer-content h1{
+font-family:Brush Script MT;
+font-size:50px;
+text-align:center;
+text-transform:capitalize;
+font-weight:200px;
+}
+
+.socials{
+list-style:none;
+text-decoration:none;
+display:flex;
+float:right;
+color:white;
+margin:10px;
+}
+.socials li{
+padding:20px;
+}
+.socials a{
+text-decoration:none;
+}
+.socials a i{
+font-size:2rem;
+transition: transform .2s;
+justify-content:center;
+color:white;
+}
+.socials a:hover i{
+transform: scale(2.0);
+color:#33ffff;
+}
+.footer-bottom{
+text-align:center;
+padding:20px auto;
+}
+.footer-bottom p{
+font-size:15px;
+word-spacing:3px;
+text-transform:capitalize;
+}
+
+.footer-bottom a{
+	text-decoration:none;
+	color:white;
+}
+ .footer-bottom a:hover{
+  color:white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.footer-bottom a:active {
+  color:red;
+  background-color: transparent;
+  text-decoration: underline;
+}
